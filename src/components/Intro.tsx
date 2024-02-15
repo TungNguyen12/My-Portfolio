@@ -68,10 +68,10 @@ const Intro = () => {
         <span className="font-bold gradientText dark:text-transparent dark:bg-clip-text">
           junior full-stack developer
         </span>{' '}
-        ,I enjoy building <span className="italic">sites & apps</span>,{' '}
+        , I enjoy building <span className="italic">sites & apps</span>,{' '}
         <span>learning new technologies</span>
         <span> & taking photos</span>.<br /> My focus is{' '}
-        <span className="underline">Frontend</span>.
+        <span className="underline">Frontend Development</span>.
       </motion.h1>
 
       <motion.div
