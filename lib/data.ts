@@ -32,12 +32,12 @@ export const links = [
 
 export const experiencesData = [
   {
-    title: 'LAB University of Applied Sciences',
-    location: 'Lahti, Finland',
+    title: 'Full-Stack Developer',
+    location: 'Finland',
     description:
-      'During the time in LAB, I had explored and learned new knowledge about the Business and IT field, also gained the experiences of team working, communication and integrated myself into the Finnish culture.',
-    icon: React.createElement(LuGraduationCap),
-    date: '2018',
+      "I'm now a junior full-stack developer working freshly graduated from a trusted academy - Integrify, where I gained and explores new technologies during intensive programme. My stack includes React, Next.js, TypeScript, Tailwind, Redux and MongoDB. I'm open to full-time opportunities.",
+    icon: React.createElement(FaReact),
+    date: 'Jan 2023 - present',
   },
   {
     title: 'Freelance photographer',
@@ -48,12 +48,12 @@ export const experiencesData = [
     date: '2020 - 2023',
   },
   {
-    title: 'Full-Stack Developer',
-    location: 'Finland',
+    title: 'LAB University of Applied Sciences',
+    location: 'Lahti, Finland',
     description:
-      "I'm now a junior full-stack developer working freshly graduated from a trusted academy - Integrify, where I gained and explores new technologies during intensive programme. My stack includes React, Next.js, TypeScript, Tailwind, Redux and MongoDB. I'm open to full-time opportunities.",
-    icon: React.createElement(FaReact),
-    date: 'Jan 2023 - present',
+      'During the time in LAB, I had explored and learned new knowledge about the Business and IT field, also gained the experiences of team working, communication and integrated myself into the Finnish culture.',
+    icon: React.createElement(LuGraduationCap),
+    date: '2018',
   },
 ] as const
 
@@ -72,20 +72,24 @@ export const projectsData = [
       'Typescript',
       'Jest',
     ],
-    imageUrl: '/Amsterdam.jpg',
+    imageUrl: '/library.jpg',
+    url: 'https://tungnguyen12.github.io/Library-Frontend/',
   },
   {
-    title: 'Static websites',
+    title: 'Landing pages',
     description:
-      'Apply UX/UI, Accessibility, User-centered design I learned from Google courses then combine with HTML, CSS to build static websites',
+      'Apply UX/UI, Accessibility, User-centered design I learned from Google courses then combine with HTML, CSS to build landing pages',
     tags: ['HTML', 'CSS', 'UX/UI', 'Accessibility'],
-    imageUrl: '/Lahti.jpg',
+    imageUrl: '/staticweb.jpg',
+    url: 'https://tungnguyen12.github.io/htmlcss-project-02/',
   },
   {
-    title: 'adding...',
-    description: 'adding...',
-    tags: ['React', 'Next.js', 'SQL', 'Tailwind', 'Framer'],
-    imageUrl: '/Durango.jpg',
+    title: 'Besnik landing',
+    description:
+      'Apply UX/UI, Accessibility, User-centered design I learned from Google courses then combine with HTML, CSS to build landing pages',
+    tags: ['HTML', 'CSS', 'UX/UI', 'Accessibility'],
+    imageUrl: '/landingpage2.jpg',
+    url: 'https://tungnguyen12.github.io/htmlcss-project-01/',
   },
 ] as const
 

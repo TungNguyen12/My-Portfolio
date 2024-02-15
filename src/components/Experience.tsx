@@ -16,7 +16,7 @@ const Experience = () => {
   const { theme } = useTheme()
   return (
     <section id="experience" ref={ref}>
-      <SectionHeading>My experience</SectionHeading>
+      <SectionHeading>Career Growth Milestones</SectionHeading>
       <VerticalTimeline lineColor="">
         {experiencesData.map((experience, index) => (
           <React.Fragment key={index}>

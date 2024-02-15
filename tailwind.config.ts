@@ -28,6 +28,9 @@ const config: Config = {
           },
         },
       },
+      images: {
+        unoptimized: true,
+      },
     },
   },
   plugins: [],
