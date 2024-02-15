@@ -1,7 +1,6 @@
 'use client'
 import Image from 'next/image'
 import React from 'react'
-import picture from '../../public/avatar2.jpg'
 import { easeIn, motion } from 'framer-motion'
 import Link from 'next/link'
 import { BsArrowRight, BsLinkedin } from 'react-icons/bs'
@@ -9,6 +8,7 @@ import { HiDownload } from 'react-icons/hi'
 import { FaGithub } from 'react-icons/fa'
 import useSectionInView from '../../lib/hooks'
 import { useActiveSectionContext } from '@/context/ActiveSection'
+import { avatar } from '../../lib/data'
 
 const Intro = () => {
   const { ref } = useSectionInView('Home', 1)
@@ -31,7 +31,7 @@ const Intro = () => {
             }}
           >
             <Image
-              src={picture}
+              src={avatar}
               alt="Tung Nguyen"
               width="180"
               height="180"

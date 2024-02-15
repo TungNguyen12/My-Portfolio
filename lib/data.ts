@@ -89,6 +89,8 @@ export const projectsData = [
   },
 ] as const
 
+export const avatar = '/avatar2.jpg'
+
 export const skillsData = [
   'HTML',
   'CSS',
