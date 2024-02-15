@@ -29,7 +29,7 @@ export default function Home() {
 
   return (
     <motion.main
-      className="flex min-h-screen flex-col items-center p-24 before:pointer-events-none before:fixed before:inset-0 before:-z-10 before:dark:bg-[radial-gradient(50.40%_60.55%_at_var(--x,_10px)_var(--y,_10px),#4f8daa_0%,_transparent_50%)] before:opacity-30 dark:absolute"
+      className="flex min-h-screen flex-col items-center p-24 before:pointer-events-none before:fixed before:inset-0 before:-z-10 before:dark:bg-[radial-gradient(50.40%_50.55%_at_var(--x,_10px)_var(--y,_10px),#4f8daa_0%,_transparent_50%)] before:opacity-30"
       ref={targetRef}
     >
       <Intro />
