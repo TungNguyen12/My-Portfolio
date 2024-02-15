@@ -72,20 +72,20 @@ export const projectsData = [
       'Typescript',
       'Jest',
     ],
-    imageUrl: '/Amsterdam.JPG',
+    imageUrl: '/Amsterdam.jpg',
   },
   {
     title: 'Static websites',
     description:
       'Apply UX/UI, Accessibility, User-centered design I learned from Google courses then combine with HTML, CSS to build static websites',
     tags: ['HTML', 'CSS', 'UX/UI', 'Accessibility'],
-    imageUrl: '/Lahti.JPG',
+    imageUrl: '/Lahti.jpg',
   },
   {
     title: 'adding...',
     description: 'adding...',
     tags: ['React', 'Next.js', 'SQL', 'Tailwind', 'Framer'],
-    imageUrl: '/Durango.JPG',
+    imageUrl: '/Durango.jpg',
   },
 ] as const
 
