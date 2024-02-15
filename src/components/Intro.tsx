@@ -31,7 +31,7 @@ const Intro = () => {
             }}
           >
             <Image
-              src={avatar}
+              src={avatar.avatar}
               alt="Tung Nguyen"
               width="180"
               height="180"
