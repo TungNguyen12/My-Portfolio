@@ -1,7 +1,7 @@
 'use client'
 import Image from 'next/image'
-import React, { useEffect } from 'react'
-import picture from '../../public/avatar.jpg'
+import React from 'react'
+import picture from '../../public/avatar2.jpg'
 import { easeIn, motion } from 'framer-motion'
 import Link from 'next/link'
 import { BsArrowRight, BsLinkedin } from 'react-icons/bs'
@@ -33,8 +33,8 @@ const Intro = () => {
             <Image
               src={picture}
               alt="Tung Nguyen"
-              width="200"
-              height="200"
+              width="180"
+              height="180"
               quality="90"
               priority={true}
               className="rounded-full h-34 w-34 object-cover border-[0.35rem] border-white"
@@ -62,9 +62,9 @@ const Intro = () => {
         animate={{ opacity: 1, y: 0 }}
       >
         <span className="font-bold dark:gradientText animate-text bg-gradient-to-r from-white via-blue-500 to-green-600 bg-clip-text text-transparent text-5xl">
-          Hello, I am Tung Nguyen.
+          Hello, I am Tung Nguyen
         </span>
-        <br /> I'm a{' '}
+        <br /> As a{' '}
         <span className="font-bold gradientText dark:text-transparent dark:bg-clip-text">
           junior full-stack developer
         </span>{' '}
@@ -104,7 +104,7 @@ const Intro = () => {
           Get my CV{' '}
           <HiDownload
             className="opacity-70 group-hover:animate-bounce group-hover:transition-transform
-          dark:opacity-50
+          dark:opacity-90
           "
           />
         </a>
