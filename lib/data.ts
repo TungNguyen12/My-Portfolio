@@ -86,7 +86,7 @@ export const projectsData = [
   {
     title: 'Portfolio',
     description:
-      'With newly adapted techs, Next.js Tailwind and Resend along with my hands-on experiences, React, Typescript to build my personal portfolio ',
+      'With newly adapted techs, Next.js Tailwind and Resend along with my handson experiences, React, Typescript to build my personal portfolio ',
     tags: ['Next.js', 'Tailwind', 'React', 'Typescript', 'Resend'],
     imageUrl: '/portfolio.jpg',
     url: 'https://tungnguyen.site/',
