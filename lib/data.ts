@@ -121,4 +121,6 @@ export const skillsData = [
   'Framer Motion',
   'Material-UI',
   'Jest',
+  'Docker',
+  'AWS Certified Cloud Practitioner',
 ] as const
