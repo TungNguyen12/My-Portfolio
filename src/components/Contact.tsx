@@ -27,10 +27,10 @@ const Contact = () => {
 
       <form
         action={async (data) => {
-          const { formData, error } = await sendEmail(data)
+          // const { formData, error } = await sendEmail(data)
           const { formDataAxios, axiosError }: any = await callWorker(data)
-          if (error) {
-            toast.error(error)
+          if (axiosError) {
+            // toast.error(error)
             toast.error(axiosError)
             return
           }
