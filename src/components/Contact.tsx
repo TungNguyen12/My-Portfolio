@@ -4,12 +4,12 @@ import React from 'react'
 import SectionHeading from './SectionHeading'
 import useSectionInView from '../../lib/hooks'
 import { sendEmail } from '@/functions/sendEmail'
+import { callWorker } from '@/functions/callWorker'
 import SubmitButton from './SubmitButton'
 import toast from 'react-hot-toast'
 
 const Contact = () => {
   const { ref } = useSectionInView('Contact', 1)
-
   return (
     <section
       id="contact"
@@ -28,9 +28,10 @@ const Contact = () => {
       <form
         action={async (data) => {
           const { formData, error } = await sendEmail(data)
-
+          const { formDataAxios, axiosError } = await callWorker(data)
           if (error) {
             toast.error(error)
+            toast.error(axiosError)
             return
           }
 
