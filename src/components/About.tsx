@@ -11,7 +11,7 @@ const About = () => {
   return (
     <motion.section
       ref={ref}
-      className="mb-28 max-w-[45rem] text-center leading-8 sm:mb-40 scroll-mt-28"
+      className="mb-28 max-w-[45rem] text-center leading-10 sm:mb-40 scroll-mt-28"
       initial={{ opacity: 0, y: 100 }}
       animate={{ opacity: 1, y: 0 }}
       transition={{ delay: 0.175 }}
@@ -19,11 +19,19 @@ const About = () => {
     >
       <SectionHeading>About me</SectionHeading>
       <p>
-        I have gained a solid base as a programmer during my bachelor’s degree
-        studies in Information Technology and since he has worked as a Logistics
-        Coordinator at Posti. In earlier 2023, I started programming actively
-        focusing on UX/UI before delving deeper into programming at Integrify. I
-        have also completed a certificate in the Finnish language.
+        In late 2022, I began teaching myself UX/UI design on Google. Intrigued
+        by the process, I ventured into HTML/CSS to bring my designs to life. As
+        I digged deeper into coding, particularly JavaScript, I discovered my
+        passion for web development and problem-solving.
+      </p>
+      <p>
+        Continuously learning and exploring new technologies, I am thrilled to
+        embark on the next chapter of my career to pursue frontend development.
+      </p>
+      <p>
+        As an aspiring junior developer, I want to utilize my skills in
+        teamwork, communication, problem-solving, and UX/UI to create
+        user-friendly applications that deliver meaningful value.
       </p>
     </motion.section>
   )

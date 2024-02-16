@@ -35,11 +35,10 @@ const Intro = () => {
               alt="Tung Nguyen"
               width="180"
               height="180"
-              //quality="90"
-              //priority={true}
+              priority={true}
               className="rounded-full h-34 w-34 object-cover border-[0.35rem] border-white"
               unoptimized
-              // quality={100}
+              quality={100}
             ></Image>
           </motion.div>
 

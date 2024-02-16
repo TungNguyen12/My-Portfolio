@@ -84,6 +84,14 @@ export const projectsData = [
     url: 'https://tungnguyen12.github.io/htmlcss-project-02/',
   },
   {
+    title: 'Portfolio',
+    description:
+      'With newly adapted techs, Next.js Tailwind and Resend along with my hands-on experiences, React, Typescript to build my personal portfolio ',
+    tags: ['Next.js', 'Tailwind', 'React', 'Typescript', 'Resend'],
+    imageUrl: '/portfolio.jpg',
+    url: 'https://tungnguyen.site/',
+  },
+  {
     title: 'Besnik landing',
     description:
       'Apply UX/UI, Accessibility, User-centered design I learned from Google courses then combine with HTML, CSS to build landing pages',

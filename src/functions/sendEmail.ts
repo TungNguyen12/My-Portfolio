@@ -7,6 +7,8 @@ import React from 'react'
 
 const resend = new Resend(process.env.RESEND_API_KEY)
 
+resend.domains.verify('tungnguyen.site')
+
 export const sendEmail = async (data: FormData) => {
   const message = data.get('message')
   const senderEmail = data.get('senderEmail')
