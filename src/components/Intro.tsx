@@ -86,7 +86,7 @@ const Intro = () => {
       >
         <Link
           href="#contact"
-          className="group bg-gray-900 text-white px-7 py-3 flex items-center gap-2 rounded-full outline-none focus:scale-110 hover:scale-110 hover:bg-pink-600 active:scale-105 transition-transform
+          className="group bg-gray-900 text-white px-7 py-3 flex items-center gap-2 rounded-full outline-none focus:scale-110 hover:scale-110 hover:bg-navy-100 active:scale-105 transition-transform
           dark:hover:bg-slate-700
           "
           onClick={() => {
@@ -98,7 +98,7 @@ const Intro = () => {
           <BsArrowRight className="opacity-70 group-hover:translate-x-2 group-hover:transition-transform" />
         </Link>
         <a
-          className="group bg-white text-black px-7 py-3 flex items-center gap-2 rounded-full outline-none focus:scale-110 hover:scale-110 hover:bg-purple-200 active:scale-105 transition-transform cursor-pointer dark:bg-white/10 dark:text-gray-100"
+          className="group bg-white text-black px-7 py-3 flex items-center gap-2 rounded-full outline-none focus:scale-110 hover:scale-110 hover:bg-blue-100 active:scale-105 transition-transform cursor-pointer dark:bg-white/10 dark:text-gray-100"
           href="/CV.pdf"
           download={true}
         >
