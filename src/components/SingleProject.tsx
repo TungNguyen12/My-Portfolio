@@ -47,9 +47,11 @@ const Project = ({ title, description, tags, imageUrl, url }: ProjectProps) => {
 
         <Image
           src={imageUrl}
+          alt="Project I worked on"
           width="120"
           height="120"
-          alt="Project I worked on"
+          quality={100}
+          unoptimized
           className="absolute top-8 -right-72 w-[38.25rem] h-[28.25rem] object-cover rounded-t-lg shadow-2xl
      group-even:-left-72
         transition
@@ -62,8 +64,6 @@ const Project = ({ title, description, tags, imageUrl, url }: ProjectProps) => {
         group-even:group-hover:translate-x-3
         group-even:group-hover:translate-y-3
         group-even:group-hover:rotate-2"
-          quality={100}
-          unoptimized
         ></Image>
       </section>
     </motion.div>

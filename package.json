@@ -1,18 +1,22 @@
 {
   "name": "portfolio_pete",
   "version": "0.1.0",
+  "homepage": "https://tungnguyen12.github.io/My-Portfolio/",
   "private": true,
   "scripts": {
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
-    "lint": "next lint"
+    "lint": "next lint",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d .next"
   },
   "dependencies": {
     "@react-email/components": "^0.0.14",
     "@react-email/tailwind": "^0.0.14",
     "clsx": "^2.1.0",
     "framer-motion": "^11.0.3",
+    "gh-pages": "^6.1.1",
     "next": "14.1.0",
     "node": "^21.6.1",
     "postcss": "^8.4.35",

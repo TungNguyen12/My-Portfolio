@@ -8,7 +8,7 @@ import { HiDownload } from 'react-icons/hi'
 import { FaGithub } from 'react-icons/fa'
 import useSectionInView from '../../lib/hooks'
 import { useActiveSectionContext } from '@/context/ActiveSection'
-import { avatar } from '../../lib/data'
+import { profile } from '../../lib/data'
 
 const Intro = () => {
   const { ref } = useSectionInView('Home', 1)
@@ -31,13 +31,15 @@ const Intro = () => {
             }}
           >
             <Image
-              src={avatar.avatar}
+              src={profile.profile}
               alt="Tung Nguyen"
               width="180"
               height="180"
               //quality="90"
               //priority={true}
               className="rounded-full h-34 w-34 object-cover border-[0.35rem] border-white"
+              unoptimized
+              // quality={100}
             ></Image>
           </motion.div>
 
