@@ -12,13 +12,13 @@ const Skills = () => {
   const fadeInVariants = {
     initial: {
       opacity: 0,
-      y: 100,
+      y: 80,
     },
     animate: (index: number) => ({
       opacity: 1,
       y: 0,
       transition: {
-        delay: 0.04 * index,
+        delay: 0.05 * index,
       },
     }),
   }
@@ -36,9 +36,7 @@ const Skills = () => {
             className="bg-white border border-black/[0.1] rounded-xl px-5 py-3
             dark:text-gray-100
             dark:bg-white/10
-            dark:hover:bg-white/20
-            transition
-            duration-200
+            dark:hover:bg-white/20     
             "
             key={index}
             variants={fadeInVariants}

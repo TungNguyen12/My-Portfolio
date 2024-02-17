@@ -7,6 +7,8 @@ import { sendEmail } from '@/functions/sendEmail'
 import { callWorker } from '@/functions/callWorker'
 import SubmitButton from './SubmitButton'
 import toast from 'react-hot-toast'
+import { BsLinkedin } from 'react-icons/bs'
+import { FaGithub } from 'react-icons/fa'
 
 const Contact = () => {
   const { ref } = useSectionInView('Contact', 1)
@@ -54,7 +56,28 @@ const Contact = () => {
           maxLength={400}
           name="message"
         ></textarea>
-        <SubmitButton />
+        <div className="flex justify-between">
+          <SubmitButton />
+
+          <div className="flex gap-4">
+            <a
+              href="https://www.linkedin.com/in/tungnguyen0702/"
+              target="_blank"
+              className="bg-white p-3 text-gray-700 flex items-center gap-2 text-[1.35rem] rounded-full focus:scale-[1.15] hover:scale-[1.15] active:scale-105 transition cursor-pointer border border-black/10 dark:bg-white/10
+            dark:text-gray-100"
+            >
+              <BsLinkedin />
+            </a>
+            <a
+              href="https://github.com/TungNguyen12"
+              target="_blank"
+              className="bg-white p-3 text-gray-700 flex items-center gap-2 text-[1.35rem] rounded-full focus:scale-[1.15] hover:scale-[1.15] active:scale-105 transition cursor-pointer border border-black/10 dark:bg-white/10
+            dark:text-gray-100"
+            >
+              <FaGithub />
+            </a>
+          </div>
+        </div>
       </form>
     </section>
   )

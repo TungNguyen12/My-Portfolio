@@ -28,11 +28,17 @@ const About = () => {
         Continuously learning and exploring new technologies, I am thrilled to
         embark on the next chapter of my career to pursue frontend development.
       </p>
-      <p>
+      <span
+        className="font-mono
+before:absolute before:inset-0 
+before:animate-typewriter after:absolute after:inset-0 after:w-[0.125em] after:animate-caret before:bg-inherit after:bg-white
+"
+      >
         As an aspiring junior developer, I want to utilize my skills in
         teamwork, communication, problem-solving, and UX/UI to create
         user-friendly applications that deliver meaningful value.
-      </p>
+        {/* Hello world */}
+      </span>
     </motion.section>
   )
 }

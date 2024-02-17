@@ -15,6 +15,9 @@ const config: Config = {
       },
       animation: {
         text: 'text 5s ease infinite',
+        typewriter: 'typewriter 2s steps(11) forwards',
+        caret:
+          'typewriter 2s steps(11) forwards, blink 1s steps(11) infinite 2s',
       },
       keyframes: {
         text: {
@@ -25,6 +28,28 @@ const config: Config = {
           '50%': {
             'background-size': '200% 200%',
             'background-position': 'right center',
+          },
+        },
+        typewriter: {
+          to: {
+            left: '100%',
+          },
+        },
+        blink: {
+          '0%': {
+            opacity: '0',
+          },
+          '0.1%': {
+            opacity: '1',
+          },
+          '50%': {
+            opacity: '1',
+          },
+          '50.1%': {
+            opacity: '0',
+          },
+          '100%': {
+            opacity: '0',
           },
         },
       },
