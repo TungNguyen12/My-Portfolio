@@ -15,43 +15,28 @@ const config: Config = {
       },
       animation: {
         text: 'text 5s ease infinite',
-        typewriter: 'typewriter 2s steps(11) forwards',
-        caret:
-          'typewriter 2s steps(11) forwards, blink 1s steps(11) infinite 2s',
+        typing: 'typing 3.5s steps(10, end)',
+        'blink-caret': 'blink-caret .75s step-end infinite',
       },
       keyframes: {
-        text: {
-          '0%, 100%': {
-            'background-size': '200% 200%',
-            'background-position': 'left center',
-          },
-          '50%': {
-            'background-size': '200% 200%',
-            'background-position': 'right center',
-          },
+        typing: {
+          from: { width: '0' },
+          to: { width: '100%' },
         },
-        typewriter: {
-          to: {
-            left: '100%',
-          },
+        'blink-caret': {
+          from: { borderColor: 'transparent' },
+          to: { borderColor: 'transparent' },
+          '50%': { borderColor: 'orange' },
         },
-        blink: {
-          '0%': {
-            opacity: '0',
-          },
-          '0.1%': {
-            opacity: '1',
-          },
-          '50%': {
-            opacity: '1',
-          },
-          '50.1%': {
-            opacity: '0',
-          },
-          '100%': {
-            opacity: '0',
-          },
-        },
+      },
+      borderWidth: {
+        '2': '2px',
+      },
+      borderColor: {
+        orange: '#FFA500',
+      },
+      letterSpacing: {
+        tighter: '.15em',
       },
       images: {
         unoptimized: true,
