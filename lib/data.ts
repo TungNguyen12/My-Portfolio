@@ -74,6 +74,7 @@ export const projectsData = [
     ],
     imageUrl: '/library.jpg',
     url: 'https://tungnguyen12.github.io/Library-Frontend/',
+    sourceUrl: 'https://github.com/TungNguyen12/Fullstack-Library',
   },
   {
     title: 'Landing pages',
@@ -82,6 +83,7 @@ export const projectsData = [
     tags: ['HTML', 'CSS', 'UX/UI', 'Accessibility'],
     imageUrl: '/staticweb.jpg',
     url: 'https://tungnguyen12.github.io/htmlcss-project-02/',
+    sourceUrl: 'https://github.com/TungNguyen12/htmlcss-project-02',
   },
   {
     title: 'Portfolio',
@@ -90,6 +92,7 @@ export const projectsData = [
     tags: ['Next.js', 'Tailwind', 'React', 'Typescript', 'Resend'],
     imageUrl: '/portfolio.jpg',
     url: 'https://tungnguyen.site/',
+    sourceUrl: 'https://github.com/TungNguyen12/My-Portfolio',
   },
   {
     title: 'Besnik landing',
@@ -98,6 +101,7 @@ export const projectsData = [
     tags: ['HTML', 'CSS', 'UX/UI', 'Accessibility'],
     imageUrl: '/landingpage2.jpg',
     url: 'https://tungnguyen12.github.io/htmlcss-project-01/',
+    sourceUrl: 'https://github.com/TungNguyen12/htmlcss-project-01',
   },
 ] as const
 
