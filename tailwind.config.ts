@@ -15,28 +15,21 @@ const config: Config = {
       },
       animation: {
         text: 'text 5s ease infinite',
-        typing: 'typing 3.5s steps(10, end)',
-        'blink-caret': 'blink-caret .75s step-end infinite',
+        typing: 'typing 3.5s steps(183), blink 0.5s infinite',
       },
       keyframes: {
+        blink: {
+          from: { 'border-right-color': 'transparent' },
+          to: { 'border-right-color': 'black' },
+        },
         typing: {
-          from: { width: '0' },
-          to: { width: '100%' },
+          from: {
+            width: '0',
+          },
+          to: {
+            width: '10ch',
+          },
         },
-        'blink-caret': {
-          from: { borderColor: 'transparent' },
-          to: { borderColor: 'transparent' },
-          '50%': { borderColor: 'orange' },
-        },
-      },
-      borderWidth: {
-        '2': '2px',
-      },
-      borderColor: {
-        orange: '#FFA500',
-      },
-      letterSpacing: {
-        tighter: '.15em',
       },
       images: {
         unoptimized: true,

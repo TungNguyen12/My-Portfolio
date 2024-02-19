@@ -28,11 +28,13 @@ const About = () => {
         Continuously learning and exploring new technologies, I am thrilled to
         embark on the next chapter of my career to pursue frontend development.
       </p>
-      <span className="font-mono">
-        As an aspiring junior developer, I want to utilize my skills in
-        teamwork, communication, problem-solving, and UX/UI to create
-        user-friendly applications that deliver meaningful value.
-        {/* Hello world */}
+      <span className="text-center">
+        <span className="">
+          {/* Hello world */}
+          As an aspiring junior developer, I want to utilize my skills in
+          teamwork, communication, problem-solving, and UX/UI to create
+          user-friendly applications that deliver meaningful value.
+        </span>
       </span>
     </motion.section>
   )
