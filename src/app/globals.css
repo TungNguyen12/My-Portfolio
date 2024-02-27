@@ -57,7 +57,7 @@ body {
   @apply dark:hover:bg-gradient-to-r from-[#111827] to-[#034947]  duration-150 transition-all;
 }
 
-.typingAffect::before,
+/* .typingAffect::before,
 ::after {
   @apply content-none absolute top-0 right-0 bottom-0 left-0;
-}
+} */

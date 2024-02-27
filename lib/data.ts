@@ -1,6 +1,7 @@
 import React from 'react'
 import { CgWorkAlt } from 'react-icons/cg'
 import { FaReact } from 'react-icons/fa'
+import { FaBeer } from 'react-icons/fa'
 import { LuGraduationCap } from 'react-icons/lu'
 
 export const links = [
@@ -44,7 +45,7 @@ export const experiencesData = [
     location: 'Finland',
     description:
       'Having a big passion on art and photography, I taught myself how to use camera to catch breathtaking pictures in late 2020. Additionally self-learning how to use Adobe softwares to support editing images, eg Lightroom Classic, Photoshop. I have been actively doing variety of clients gig like wedding, event, sport,..',
-    icon: React.createElement(CgWorkAlt),
+    icon: React.createElement(FaBeer),
     date: '2020 - 2023',
   },
   {
@@ -88,7 +89,7 @@ export const projectsData = [
   {
     title: 'Portfolio',
     description:
-      'With newly adapted techs, Next.js Tailwind and Resend along with my handson experiences, React, Typescript to build my personal portfolio ',
+      'With newly adapted techs, Next.js Tailwind and Resend along with my hands-on experiences, React, Typescript to build my personal portfolio ',
     tags: ['Next.js', 'Tailwind', 'React', 'Typescript', 'Resend'],
     imageUrl: '/portfolio.jpg',
     url: 'https://tungnguyen.site/',
@@ -100,8 +101,8 @@ export const projectsData = [
       'Fresh framework adapted to build this simple app, Angular version 17',
     tags: ['Angular', 'Typescript', 'HTML', 'CSS'],
     imageUrl: '/pets.jpg',
-    url: 'https://tungnguyen12.github.io/htmlcss-project-01/',
-    sourceUrl: 'https://github.com/TungNguyen12/htmlcss-project-01',
+    url: 'https://pets.tungnguyen.site/',
+    sourceUrl: 'https://github.com/TungNguyen12/Angular-Pets-List',
   },
 ] as const
 

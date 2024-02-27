@@ -26,7 +26,7 @@ const Experience = () => {
                   theme === 'light' ? '#f3f4f6' : 'rgb(255 255 255 / 0.1)',
                 boxShadow: 'none',
                 border: '1px solid rgba(0, 0, 0, 0.05',
-                padding: '1.3rem 2rem',
+                padding: '1.3rem 3rem',
                 zIndex: 100,
               }}
               visible={true}
