@@ -95,11 +95,11 @@ export const projectsData = [
     sourceUrl: 'https://github.com/TungNguyen12/My-Portfolio',
   },
   {
-    title: 'Besnik landing',
+    title: 'My Pets',
     description:
-      'Apply UX/UI, Accessibility, User-centered design I learned from Google courses then combine with HTML, CSS to build landing pages',
-    tags: ['HTML', 'CSS', 'UX/UI', 'Accessibility'],
-    imageUrl: '/landingpage2.jpg',
+      'Fresh framework adapted to build this simple app, Angular version 17',
+    tags: ['Angular', 'Typescript', 'HTML', 'CSS'],
+    imageUrl: '/pets.jpg',
     url: 'https://tungnguyen12.github.io/htmlcss-project-01/',
     sourceUrl: 'https://github.com/TungNguyen12/htmlcss-project-01',
   },
